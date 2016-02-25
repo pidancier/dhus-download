@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright (C) 2016  Frédéric Pidancier <GAEL Systems>
+# 
 # This script aims to perform download of products filtered by Odata.
 # run this script as following
 # $> USER=user PASSWORD=password  URL='http://dhus_server/odata/v1' sh download.sh [count=10]
@@ -7,7 +9,7 @@
 #  [USER] the dhus username
 #  [PASSOWRD] the dhus username password.
 #  [FILTER] the Odata expected filter (default: no filter) could be "$filter=startswith(Name,'S2A')" 
-# Script first parameter is Optional, is ne number of products to be retrieved.
+# Script parameter is Optional, is ne number of products to be retrieved.
 #
 
 # This must be execute with bash!!!
